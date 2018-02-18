@@ -27,8 +27,8 @@ from xgboost import XGBRegressor as xgbr
 from sys import argv
 import warnings
 
-warnings.simplefilter("ignore")
-
+# warnings.simplefilter("ignore")
+warnings.filterwarnings("ignore")
 
 # ============================================================================================================
 
